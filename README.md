@@ -7,6 +7,7 @@ Features I would like to work on:
 - [] Saving unique chats
 - [] Method for copying unique chats to clipboard
 - [] Better unique chat filtering (based on ignore patterns)
+- [] Build methods for packaging the application
 
 ## Installation
 To use this application, you will need the following libraries:
