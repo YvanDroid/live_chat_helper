@@ -66,7 +66,7 @@ def copy_to_clipboard(sender, app_data, user_data):
 def new_unique(sender, app_data, user_data):
     # Random row from the unique_df
     global unique_df
-    random_row = df.sample(n=1, random_state=42).iloc[0]
+    random_row = df.sample(n=1).iloc[0] # Remove random_state to make it actually random
     print(random_row)
     display_text = ', '.join(map(str, random_row.tolist()[1:]))
     dpg.set_value("highlight_text", display_text)
