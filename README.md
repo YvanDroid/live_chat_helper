@@ -19,8 +19,28 @@ To use this application, you will need the following libraries:
 ## Running
 You can either:
 - Run the python script inside a virtual environment after cloning and installing dependencies.
+On linux
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python yt_chat_downloader_gui.py
+```
+On windows
+```powershell
+python -m venv .venv
+source .venv/bin/activate.ps1
+pip install -r requirements.txt
+python yt_chat_downloader_gui.py
+```
 - Run the script from the release builds for different platforms.
 
 ## Building
 Building this application requires you to install the following extra dependencies:
 - PyInstaller (for building a package that can be sent to others without the need for a python environment)
+
+Then after it is installed, you can run:
+```bash
+pyinstaller yt_chat_downloader_gui.py --onefile
+```
+And it will build for your platform, allowing you to send this program to other people without the need for python to be installed.
