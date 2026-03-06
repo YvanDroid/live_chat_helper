@@ -29,7 +29,7 @@ python yt_chat_downloader_gui.py
 On windows
 ```powershell
 python -m venv .venv
-source .venv/bin/activate.ps1
+.venv/bin/activate.ps1
 pip install -r requirements.txt
 python yt_chat_downloader_gui.py
 ```
