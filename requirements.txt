@@ -1,0 +1,21 @@
+altgraph==0.17.5
+certifi==2026.2.25
+charset-normalizer==3.4.4
+chat-downloader @ git+https://github.com/Indigo128/chat-downloader@3e1400cae1544d617760669a913d241e6601335c
+colorlog==6.10.1
+dearpygui==2.2
+docstring-parser==0.17.0
+idna==3.11
+isodate==0.7.2
+numpy==2.4.2
+packaging==26.0
+pandas==3.0.1
+pyinstaller==6.19.0
+pyinstaller-hooks-contrib==2026.2
+pyperclip==1.11.0
+python-dateutil==2.9.0.post0
+requests==2.32.5
+setuptools==82.0.0
+six==1.17.0
+urllib3==2.6.3
+websocket-client==1.9.0
