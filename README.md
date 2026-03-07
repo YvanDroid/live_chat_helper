@@ -41,6 +41,6 @@ Building this application requires you to install the following extra dependenci
 
 Then after it is installed, you can run:
 ```bash
-pyinstaller yt_chat_downloader_gui.py --onefile
+pyinstaller yt_chat_downloader_gui.py --collect-data chat_downloader --onefile
 ```
 And it will build for your platform, allowing you to send this program to other people without the need for python to be installed.
